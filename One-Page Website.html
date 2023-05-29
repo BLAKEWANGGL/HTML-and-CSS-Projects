@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    /* CSS styles for the page layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #666;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }
+    
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#pictures">Pictures</a>
+    <a href="#contact">Contact</a>
+    <a href="#video">Video</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home Page</h2>
+    <p>This is the home page section of my website. Feel free to explore!</p>
+  </section>
+
+  <section id="pictures">
+    <h2>Pictures</h2>
+    <img src="C:\Users\wangh\Documents\GitHub\One-Page Website\images\Genshen\Genshen_1.jpg" alt="Picture 1">
+    <img src="C:\Users\wangh\Documents\GitHub\One-Page Website\images\Genshen\Genshen_2.jpg" alt="Picture 2">
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <section id="video">
+    <h2>Video</h2>
+    <iframe src="https://www.youtube.com/embed/e_F-KHVDOCo" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
